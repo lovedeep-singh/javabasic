@@ -18,6 +18,7 @@ public class SumAndAverage {
     System.out.println("Sum is :"+ sum);
     System.out.println("Average is:"+ average);
     
+   
     
     }
     

@@ -32,11 +32,15 @@ public class GradesAverage {
         //sumup the array by loop
         int sumup = 0;
         for (int index = 0; index < arrStudent.length; index++) {
+        	
+        	sumup=sumup+arrStudent[index];
+        	
         }
 
+        System.out.println("Total markes are :"+sumup);
         //print it out
-        int average = sumup / (numInput);
+        double average = (double)sumup / (numInput);
 
-
+System.out.println("Average is:"+average);
     }
 }
